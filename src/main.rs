@@ -6,6 +6,7 @@ use day_code::day2;
 use day_code::day3;
 use day_code::day4;
 */
+use day_code::day5;
 
 fn main() {
     /*
@@ -18,6 +19,7 @@ fn main() {
     let res = day4::first();
     let res = day4::second();
     */
+    let res = day5::first();
     match res {
         Err(e) => println!("Error: {}", e),
         Ok(n) => println!("Success! Result: {}", n),
