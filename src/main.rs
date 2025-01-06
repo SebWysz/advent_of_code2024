@@ -18,8 +18,9 @@ fn main() {
     let res = day3::second();
     let res = day4::first();
     let res = day4::second();
-    */
     let res = day5::first();
+    */
+    let res = day5::second();
     match res {
         Err(e) => println!("Error: {}", e),
         Ok(n) => println!("Success! Result: {}", n),
